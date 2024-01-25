@@ -3,7 +3,7 @@ name: Node.js and Vue.js CI
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   nodejs:
