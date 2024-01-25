@@ -37,9 +37,9 @@ jobs:
         node-version: '16'
 
     - name: Install dependencies for Vue.js
-      working-directory: web-scraping
+      working-directory: app
       run: npm install
 
     - name: Run Vue.js server
-      working-directory: web-scraping
+      working-directory: app
       run: npm run serve
