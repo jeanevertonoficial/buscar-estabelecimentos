@@ -5,7 +5,6 @@ on:
     branches:
       - main
 
-
 jobs:
   nodejs:
     runs-on: ubuntu-latest
@@ -16,7 +15,7 @@ jobs:
     - name: Use Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '14'
+        node-version: '16'
 
     - name: Install dependencies for API
       working-directory: api
@@ -35,7 +34,7 @@ jobs:
     - name: Use Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '14'
+        node-version: '16'
 
     - name: Install dependencies for Vue.js
       working-directory: web-scraping
