@@ -100,7 +100,6 @@ export default {
                     return [];
                   });
             } else {
-              // Se não há cidade, retorna a lista de estados
               this.estados = estados.map(item => ({
                 sigla: item.sigla,
                 nm_sigla: item.nome + ' - ' + item.sigla
