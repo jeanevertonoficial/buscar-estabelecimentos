@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export async function apiDados(req, res) {
-    const apiKey = 'AIzaSyBYaUS1c-Yb10PThoO3DsjEls5_bHWFN8s';
+    const apiKey = '';
     const { cidade, tipo, estadoSelecionado } = req.query;
 
     if (!apiKey) {
